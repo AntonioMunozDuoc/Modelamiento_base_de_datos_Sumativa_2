@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PACIENTE COMUNA FK" directorySegmentName="seg_0" id="F8AF758A-0500-BF4F-8225-975F66C7EE0B">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:06:12 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<sourcePk>2BDC3555-E1D2-5BA2-7F13-610D22D78B0A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4AEC33D1-BD0C-C6F1-546B-AC098A3A673E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>85784F12-941F-EE86-4059-382CE31B6516</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

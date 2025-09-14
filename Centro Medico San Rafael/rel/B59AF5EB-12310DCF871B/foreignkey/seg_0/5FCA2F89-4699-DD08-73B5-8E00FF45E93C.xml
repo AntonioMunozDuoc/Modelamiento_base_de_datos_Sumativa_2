@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FCA2F89-4699-DD08-73B5-8E00FF45E93C" containerWithKeyObject="4843F516-2757-3B39-41AA-43A776B03AA6" localFKIndex="011250AF-9A81-9838-BC4B-43FFC234A843" name="PAGO_DEBITO_PAGO_TARJETA_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>28B1948F-B373-898E-7B48-291CDF00960A</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<referredTableLongName>PAGO_TARJETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A60BC08-6C07-EE86-41C2-746E70E17FE7</referredTableID>
+<keyObject>D6CF7098-4369-80F0-D5E9-90280AAE1254</keyObject>
+<referredKeyID>D6CF7098-4369-80F0-D5E9-90280AAE1254</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

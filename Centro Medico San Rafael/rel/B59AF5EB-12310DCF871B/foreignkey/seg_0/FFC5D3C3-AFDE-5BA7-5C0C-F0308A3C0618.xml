@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFC5D3C3-AFDE-5BA7-5C0C-F0308A3C0618" containerWithKeyObject="81166978-F49A-516A-2CEB-30DD536DCC99" localFKIndex="E9A1E15C-C431-E433-4E8A-85B01FEF0B52" name="PREPARACION_EXAMEN_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>CBA47755-AA28-3BE9-AA7D-A20E6D08221C</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<referredTableLongName>EXAMEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCD42C17-07CB-D0DE-D947-3337FA6E4369</referredTableID>
+<keyObject>429910E8-6B52-A536-F6CC-51F5863F6B56</keyObject>
+<referredKeyID>429910E8-6B52-A536-F6CC-51F5863F6B56</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_examen</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

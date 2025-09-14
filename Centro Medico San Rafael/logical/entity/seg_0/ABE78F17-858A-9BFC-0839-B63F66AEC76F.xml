@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABE78F17-858A-9BFC-0839-B63F66AEC76F" name="PAGO">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:10:19 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="1D3DB4D4-F539-CA86-0549-2F362AD9D1A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pago" id="D49C9F6B-9BCF-96E0-66BB-3ED1711A5333">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:21:15 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="1D3DB4D4-F539-CA86-0549-2F362AD9D1A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="24A020BD-E28E-D7D1-C5E0-60CE756B1455">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:21:24 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="1D3DB4D4-F539-CA86-0549-2F362AD9D1A7" value="true"/>
+</engineerTo>
+<constraintName>CK_PAGO_MONTO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="monto &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha pago" id="694F85D4-76A6-073C-744D-3EEC3BF5A73F">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:30:57 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="1D3DB4D4-F539-CA86-0549-2F362AD9D1A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATENCION MEDICA id atencion" id="ECE8A2FB-F361-92C2-8936-EADA97A4537F">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 22:10:10 UTC</createdTime>
+<generatorID>96ECBE76-12DA-E86D-BC35-27E97CC2355E</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="1D3DB4D4-F539-CA86-0549-2F362AD9D1A7" value="true"/>
+</engineerTo>
+<referedAttribute>5FC37ACF-72DF-92F9-6B3E-F05AC66DA949</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A32E09F-9DD8-D364-5850-D344775B43B2" name="PAGO PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:21:44 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="1D3DB4D4-F539-CA86-0549-2F362AD9D1A7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D49C9F6B-9BCF-96E0-66BB-3ED1711A5333</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXAMEN SOLICITUD FK" directorySegmentName="seg_0" id="E3BB33E6-4BCB-E110-F83A-D261BC5C8DEE">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:48:09 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<sourcePk>B9E6DDAE-0C7D-3623-3064-F529EA860A1B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D9F9760-DCA7-690F-4918-469668DF78B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD76E51F-A80E-A743-FE95-31CFAC02D30A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

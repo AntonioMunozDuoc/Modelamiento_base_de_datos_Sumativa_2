@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8058E718-7575-3064-33CF-929BFC9451D4">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 19:53:53 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="065D4A60-AEC4-9E08-3C2F-FD998A00EA07" name="Arc_9">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 01:08:51 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="A096CBDB-12F5-E438-937B-44264BC46F33" value="true"/>
+</engineerTo>
+<entity>ABE78F17-858A-9BFC-0839-B63F66AEC76F</entity>
+<relations>
+<relationID>8D790415-41AD-811E-6C1C-49D1E7A15F0D</relationID>
+<relationID>F83E15F7-5F3E-6707-2C46-719351D362EA</relationID>
+<relationID>FA20F320-8AF5-65D8-90A9-5A5C71A012CD</relationID>
+</relations>
+</Arc>

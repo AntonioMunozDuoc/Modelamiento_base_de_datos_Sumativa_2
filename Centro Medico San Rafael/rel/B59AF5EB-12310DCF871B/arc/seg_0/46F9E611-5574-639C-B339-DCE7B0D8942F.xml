@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="46F9E611-5574-639C-B339-DCE7B0D8942F" name="FKArc_4">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>4A60BC08-6C07-EE86-41C2-746E70E17FE7</table>
+<fkeys>
+<fkeyID>5FCA2F89-4699-DD08-73B5-8E00FF45E93C</fkeyID>
+<fkeyID>C10737FF-5502-80C0-9007-F5A79EE9E361</fkeyID>
+</fkeys>
+</FKArc>

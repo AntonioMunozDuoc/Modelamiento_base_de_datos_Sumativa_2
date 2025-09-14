@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D586AE5-6EB4-0F99-7A3A-D09865888965" name="PAGO">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>ABE78F17-858A-9BFC-0839-B63F66AEC76F</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="04B1D48D-3CE8-A4BF-4D77-18FF0D8F09B9">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>D49C9F6B-9BCF-96E0-66BB-3ED1711A5333</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="F7773FF9-C332-7BEB-1A80-ED62AE3FB281">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>24A020BD-E28E-D7D1-C5E0-60CE756B1455</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<constraintName>CK_PAGO_MONTO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="monto &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="58494AA0-10F0-57E2-76ED-2F7262A7F8B1">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>694F85D4-76A6-073C-744D-3EEC3BF5A73F</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_MEDICA_id_atencion" id="7C7B3722-2900-8A73-C86B-CD16CC4C6A7B">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>ECE8A2FB-F361-92C2-8936-EADA97A4537F</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBF16874-96AB-8D70-EDC5-503E15918700" referredColumn="3BD4AAC8-EE1A-2577-F6AE-9F4BEB93F906"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD60623C-7BA4-5CE0-92AB-EFE63B151E4A" name="PAGO_PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>7A32E09F-9DD8-D364-5850-D344775B43B2</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04B1D48D-3CE8-A4BF-4D77-18FF0D8F09B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F24DA90-D35F-634F-891F-D056AFFB2756" name="PAGO_ATENCION_MEDICA_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>96ECBE76-12DA-E86D-BC35-27E97CC2355E</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C7B3722-2900-8A73-C86B-CD16CC4C6A7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

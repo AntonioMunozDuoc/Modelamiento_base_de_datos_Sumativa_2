@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4261C573-FDCB-9332-A17A-3D8394202D0E" name="ATENCION_MEDICA">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>D2200AF7-8F74-3B9D-DF08-BA8FD599C999</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_atencion" id="3BD4AAC8-EE1A-2577-F6AE-9F4BEB93F906">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>5FC37ACF-72DF-92F9-6B3E-F05AC66DA949</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_atencion" id="0D346C9D-5C09-2459-3CE0-E6D84BCF98A7">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>1A7EFCA2-BEFB-2FDB-4C82-82DDB59EB516</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_id_medico" id="06C40960-997D-9FE1-A299-37C4FCAF205B">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>1717DF3F-DEAC-623A-B5A1-129A5CC9A27D</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5CE662-2D79-49AA-2EE4-E59440DA2979" referredColumn="DE36E3A1-F751-5AAA-EBEC-793B4F54804C"/>
+</associations>
+</Column>
+<Column name="PACIENTE_id_paciente" id="FE0A19E9-4B13-15FE-AFC9-0C6F505A84A7">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>53CC2667-271B-A620-DD08-3AD971C989F1</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7511D5E1-8063-AEBC-84D6-C2C34D285ACA" referredColumn="A25320F5-F962-11B3-33C7-C58304B1B9CE"/>
+</associations>
+</Column>
+<Column name="SOLICITUD_id_solicitud" id="35D17DE4-AC2A-93FF-3351-047D3F950AED">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>FB859AC2-AE2F-4DCD-6DFC-30320D8F7191</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73004349-95EF-8B27-18D0-5484DC4A6C21" referredColumn="501A8120-8CA6-EB3B-E121-BF22F3A1530A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8300020-F8E4-8A6D-83D8-04D1F97DFF43" name="ATENCION_MEDICA_PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>3B542DFE-D935-9DFF-C408-A86D428F413F</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD4AAC8-EE1A-2577-F6AE-9F4BEB93F906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2935FD4A-5861-690F-73FA-411171F0E41D" name="ATENCION_MEDICA__IDX">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0C807ED2-BE84-A360-16AE-112361FC3ACF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="35D17DE4-AC2A-93FF-3351-047D3F950AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A43B279F-882E-967C-9719-3ACE71685C76" name="ATENCION_MEDICA_MEDICO_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>57F30993-0CB9-46B3-7181-358E3459F022</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06C40960-997D-9FE1-A299-37C4FCAF205B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F626FDC-A2FD-C373-ADD9-A93F052DD2BF" name="ATENCION_MEDICA_PACIENTE_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>4913D57F-322E-6868-BCA1-D54A00F1659D</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE0A19E9-4B13-15FE-AFC9-0C6F505A84A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0925774-F2DD-48E7-D14D-E2CF433E3FB1" name="ATENCION_MEDICA_SOLICITUD_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>0C807ED2-BE84-A360-16AE-112361FC3ACF</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35D17DE4-AC2A-93FF-3351-047D3F950AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

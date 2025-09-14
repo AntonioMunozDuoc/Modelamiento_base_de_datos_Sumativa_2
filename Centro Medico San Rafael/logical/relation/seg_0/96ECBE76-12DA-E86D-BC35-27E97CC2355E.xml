@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAGO ATENCION MEDICA FK" directorySegmentName="seg_0" id="96ECBE76-12DA-E86D-BC35-27E97CC2355E">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 22:10:10 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<sourcePk>3B542DFE-D935-9DFF-C408-A86D428F413F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D2200AF7-8F74-3B9D-DF08-BA8FD599C999</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ABE78F17-858A-9BFC-0839-B63F66AEC76F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

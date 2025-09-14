@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="839D0993-5CF2-5359-38DF-5B7E382FD207" name="ISAPRE">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>E09AAF77-B460-7D81-F871-41B2D69C4A64</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inst" id="C4B24851-E4B5-042E-63EE-C1FDE811E4BA">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>3933D135-E70C-12F5-4F4A-92950C869048</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C3D1A57-4321-2C0A-D1D5-5904FB1EDFB2" referredColumn="57ADF60D-BC0E-FDB6-93CB-CC7AA46852D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10C4714F-15B4-F48C-AF62-5D07A5A71745" name="ISAPRE_PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>AC35E468-FBA0-B479-C156-896AEC5A4520</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4B24851-E4B5-042E-63EE-C1FDE811E4BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BBCF61B-6DF6-4E53-B0A7-FD2926A1DC85" name="ISAPRE_INSTITUCION_SALUD_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>625DE51E-27F4-0113-695C-8EA39BC52890</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4B24851-E4B5-042E-63EE-C1FDE811E4BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A60BC08-6C07-EE86-41C2-746E70E17FE7" name="PAGO_TARJETA">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>E8A9A7E0-31EF-9C19-461B-DF8E99D4255E</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="7841C352-0A97-2C6A-23AF-A9A762095236">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>D49C9F6B-9BCF-96E0-66BB-3ED1711A5333</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0001D0D-7B6C-9C6E-5787-55A5FD1E3BB4" referredColumn="04B1D48D-3CE8-A4BF-4D77-18FF0D8F09B9"/>
+</associations>
+</Column>
+<Column name="id_tarjeta" id="AF38BAFC-5A4C-3665-A676-4F32ACB61E84">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>1C118217-64E5-F2DE-0C68-196BEA808961</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tarjeta" id="D1B4A0ED-BF2E-A4F7-3DF6-19353C53D782">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>50464FBA-5E0B-9398-496A-02BB54C7CF6C</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6CF7098-4369-80F0-D5E9-90280AAE1254" name="PAGO_TARJETA_PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>7A32E09F-9DD8-D364-5850-D344775B43B2</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7841C352-0A97-2C6A-23AF-A9A762095236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98A45F93-4FF0-425B-15B7-93F383A60B2E" name="PAGO_TARJETA_PKv1">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>A73D17C0-E960-C72E-E7C8-98297FC7C98A</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF38BAFC-5A4C-3665-A676-4F32ACB61E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E8FA926-EEDA-2113-70AF-CFAA2F1BB14F" name="PAGO_TARJETA_PAGO_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>F83E15F7-5F3E-6707-2C46-719351D362EA</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7841C352-0A97-2C6A-23AF-A9A762095236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

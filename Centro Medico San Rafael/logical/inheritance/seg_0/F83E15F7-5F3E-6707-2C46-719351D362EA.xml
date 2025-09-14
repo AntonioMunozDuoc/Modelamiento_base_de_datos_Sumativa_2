@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_23" directorySegmentName="seg_0" id="F83E15F7-5F3E-6707-2C46-719351D362EA">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 01:08:18 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="A096CBDB-12F5-E438-937B-44264BC46F33" value="true"/>
+</engineerTo>
+<arc>065D4A60-AEC4-9E08-3C2F-FD998A00EA07</arc>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>ABE78F17-858A-9BFC-0839-B63F66AEC76F</sourceEntity>
+<targetEntity>E8A9A7E0-31EF-9C19-461B-DF8E99D4255E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

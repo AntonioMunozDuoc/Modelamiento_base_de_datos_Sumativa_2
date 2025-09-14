@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7511D5E1-8063-AEBC-84D6-C2C34D285ACA" containerWithKeyObject="4261C573-FDCB-9332-A17A-3D8394202D0E" localFKIndex="0F626FDC-A2FD-C373-ADD9-A93F052DD2BF" name="ATENCION_MEDICA_PACIENTE_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>4913D57F-322E-6868-BCA1-D54A00F1659D</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<referredTableLongName>PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83849CBD-49A6-5923-66BE-8F3280FC6F87</referredTableID>
+<keyObject>3B5C76C3-7665-BDF4-2DCF-36C9E853EB55</keyObject>
+<referredKeyID>3B5C76C3-7665-BDF4-2DCF-36C9E853EB55</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_paciente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCD42C17-07CB-D0DE-D947-3337FA6E4369" name="EXAMEN">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>DD76E51F-A80E-A743-FE95-31CFAC02D30A</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_examen" id="84FD7BEE-CF52-C70F-5CBD-0B03B218112B">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>79FCCD19-4490-9294-537A-7B747D195BC0</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_examen" id="17F0B770-9493-7B53-7E1C-933B76A31B8B">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>058ABB5E-DEA0-44B2-0A33-69D666FB73C6</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLICITUD_id_solicitud" id="FC43C751-8F6B-788F-CE07-C36F91757409">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>38579D8A-1BD6-3DD7-E1D8-2366CADAA18E</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="646DFA9A-8078-FCD9-934B-2AEC87AAEF8C" referredColumn="501A8120-8CA6-EB3B-E121-BF22F3A1530A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="429910E8-6B52-A536-F6CC-51F5863F6B56" name="EXAMEN_PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>A33C4790-C8A8-DA43-3928-F80ADD0C04F6</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84FD7BEE-CF52-C70F-5CBD-0B03B218112B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9B28E91-86DD-098B-A3F6-2607E4A9E27E" name="EXAMEN_nombre_examen_UN">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>4E365234-06A2-8038-F6D6-24E2B97EC0F5</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F0B770-9493-7B53-7E1C-933B76A31B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E8A6806-AFD8-AE8E-278B-7006348F7A65" name="EXAMEN_SOLICITUD_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>E3BB33E6-4BCB-E110-F83A-D261BC5C8DEE</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC43C751-8F6B-788F-CE07-C36F91757409"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

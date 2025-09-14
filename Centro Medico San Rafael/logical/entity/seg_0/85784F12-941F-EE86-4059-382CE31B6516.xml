@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85784F12-941F-EE86-4059-382CE31B6516" name="PACIENTE">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:06:06 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id paciente" id="199C6042-4DAD-E25B-B134-865B7D0F99E7">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:06:12 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut paciente" id="A7D4B11F-BA83-EB6A-A728-DC014A41AE68">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:06:27 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre paciente" id="F26F5155-8E30-CF15-CDA9-F5E0D7AC0D93">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:06:56 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha naciemiento paciente" id="62AC6BCA-38C6-9D0E-A33C-E8F37B94E900">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:07:10 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion paciente" id="8F1814CC-3046-9133-1745-3939FF7E542C">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:07:45 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMUNA id comuna" id="6EEF2D7A-D71E-9C6F-46D6-430E03B7B582">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:06:12 UTC</createdTime>
+<generatorID>F8AF758A-0500-BF4F-8225-975F66C7EE0B</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E9EBD41B-F304-A901-5DE3-505949B6387E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo paciente" id="D1A95EB2-EF84-2415-A9CA-15895D6B7F66">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 22:36:33 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<constraintName>CK_PACIENTE_TIPO_PACIENTE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<listOfValues>
+<valueDef value="&quot;Estudiante&quot;" description=""/>
+<valueDef value="&quot;Externo&quot;" description=""/>
+<valueDef value="&quot;Funcionario&quot;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email paciente" id="48852D6A-3CFD-2522-C5D8-F45941FE5DBB">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 00:28:49 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EABDABB7-5222-6271-CE4D-345333857F9C" name="PACIENTE PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 20:06:26 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>199C6042-4DAD-E25B-B134-865B7D0F99E7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A21A3CF5-0A47-8584-CB44-6CCD91BC8847" name="PACIENTE_rut_paciente_UN">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 23:15:28 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<newElementsIDs>A7D4B11F-BA83-EB6A-A728-DC014A41AE68</newElementsIDs>
+<usedAttributes>
+<attributeRef>A7D4B11F-BA83-EB6A-A728-DC014A41AE68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

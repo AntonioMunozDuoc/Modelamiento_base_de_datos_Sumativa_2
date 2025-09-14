@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AEC33D1-BD0C-C6F1-546B-AC098A3A673E" name="COMUNA">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:05:10 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id comuna" id="E9EBD41B-F304-A901-5DE3-505949B6387E">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:05:16 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre comuna" id="F418D246-E234-D6E4-A724-5C3AB9F25001">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:05:26 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id region" id="40B7F95E-4D4D-80CC-BAA3-B510EF7D985E">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:06:24 UTC</createdTime>
+<generatorID>F087F436-5F92-0C63-3726-802FDBA5F3B7</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<referedAttribute>EBE6B034-9712-AD21-9A42-341305FE9C7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BDC3555-E1D2-5BA2-7F13-610D22D78B0A" name="COMUNA PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:05:20 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9EBD41B-F304-A901-5DE3-505949B6387E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5EB5E239-5239-2A3F-40BD-E55C0370FC97" name="COMUNA_nombre_comuna_UN">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-13 21:05:42 UTC</createdTime>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<engineerTo>
+<item key="EEF499B1-1624-B17F-5FA2-B0F30ACC0716" value="true"/>
+</engineerTo>
+<newElementsIDs>F418D246-E234-D6E4-A724-5C3AB9F25001</newElementsIDs>
+<usedAttributes>
+<attributeRef>F418D246-E234-D6E4-A724-5C3AB9F25001</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

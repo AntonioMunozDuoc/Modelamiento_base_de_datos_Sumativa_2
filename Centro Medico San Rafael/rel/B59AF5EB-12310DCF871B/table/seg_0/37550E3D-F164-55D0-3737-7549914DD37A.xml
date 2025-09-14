@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37550E3D-F164-55D0-3737-7549914DD37A" name="GENERAL">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>40220D65-2794-0C8C-9E00-4DCF32BE12B4</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_atencion" id="9F550209-4E32-5F82-FC88-E86D171FDF1B">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>5FC37ACF-72DF-92F9-6B3E-F05AC66DA949</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FEC24A9-A234-219E-2E8F-E25609EE42FB" referredColumn="3BD4AAC8-EE1A-2577-F6AE-9F4BEB93F906"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17523AC5-CC29-6542-EF2D-81DB8A402DE3" name="GENERAL_PK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>3B542DFE-D935-9DFF-C408-A86D428F413F</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F550209-4E32-5F82-FC88-E86D171FDF1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BBB62E1-85D8-98CE-6E4E-4CAE8BEFB64D" name="GENERAL_ATENCION_MEDICA_FK">
+<createdBy>Antonio</createdBy>
+<createdTime>2025-09-14 02:09:09 UTC</createdTime>
+<generatorID>DFD8E1DD-EDB5-5339-8433-5B5AD2EBA9B5</generatorID>
+<ownerDesignName>Centro Medico San Rafael</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F550209-4E32-5F82-FC88-E86D171FDF1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
